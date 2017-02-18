@@ -38,3 +38,12 @@
    
 		
 	
+2. 在 Mac 上安装nginx
+
+		brew install nginx 
+	
+	修改配置文件
+
+		sudo vim /usr/local/etc/nginx/nginx.conf
+		nginx -s reload|reopen|stop|quit  #重新加载配置|重启|停止|退出 nginx
+		nginx -t   #测试配置是否有语法错误
